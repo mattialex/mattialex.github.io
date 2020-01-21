@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(73, 70, 70);
+    border: 1px solid white;
+}
+
+.class1{
+    margin: 20px;
+    color: white;
+}
+
+
+.class2{
+    
+color:white;
+text-align: center;
+border: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.class3{
+    margin: 20px;
+color:rgb(101, 80, 218)
+}
+
+span{
+color: rgb(101, 80, 218);
+}
+
+.class4{
+    padding-left: 80px;
+    color: white;
+}
+
+.class5{
+    color: yellow;
+}
