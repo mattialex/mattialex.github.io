@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(73, 70, 70);
+    border: white;
+}
+
+span{
+    color: indianred;
+    font-style: italic;
+}
+
+.class1{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.class2{
+    color: white;
+}

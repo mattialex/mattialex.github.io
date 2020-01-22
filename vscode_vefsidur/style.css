@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(73, 70, 70);
+    border: 1px solid white;
+}
+
+span{
+    color: indianred;
+    font-style: italic;
+}
+
+.class1{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.class2{
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.class3{
+    color: white;
+}
+
+.class4{
+    color: greenyellow;
+}
+
+.class5{
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.class6{
+    color: white;
+    text-align: center;
+}
+
+.class7{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid indianred;
+}
