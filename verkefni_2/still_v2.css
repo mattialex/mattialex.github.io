@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+body{
+    background-color: grey;
+    margin: 0 auto;
+    max-width: 60em;
+}
+
+.class2{
+    border: 1px solid white;
+    margin: 20px;
+}
+.class1{
+    border: 1px solid white;
+    margin: 20px;
+}
+
+.class3{
+    border: 3px dotted black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.class4{
+    border-bottom: 2px solid black;
+}
+
+.class5 li{
+    display: block;
+    padding: 1em;
+    margin: 1em;
+    border: 3px dashed maroon;
+}
+
+.class6 li{
+    display: inline;
+    padding: 1em;
+    margin: 1em;
+    border: 3px dashed forestgreen;
+}
+
+.class7 li{
+    display: inline-block;
+    padding: 1em;
+    margin: 1em;
+    border: 3px dashed saddlebrown;
+}
+
+.class8{
+    float: left;
+    width: 50%;
+    border: 0.5px solid white;
+}
+.class9{
+    
+    border: 0.5px solid white;
+}
+
+.class10{
+    background-color: yellow;
+    text-align: center;
+    margin: 10px;
+}
+.imglfa{
+    float: right;
+    margin: 10px;
+}
+.bigl{
+    float: left;
+    margin: 10px;
+}
+
+footer p{
+    text-align: center;
+}
+
+.blue{
+    background-color: rgb(14, 139, 180);
+}
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    height: 5em;
+}
+
+.row{
+    display: flex;
+    flex-flow: row-reverse;
+}
+
+.col{
+    display: flex;
+    flex-flow: column-reverse;
+}
+
+.row div{
+    flex-grow: 1;
+}
+
+span{
+    font-style: italic;
+}
